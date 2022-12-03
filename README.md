@@ -1,2 +1,3 @@
-# jfmaia.com
-Site profissional, contendo informações sobre min e da minha carreira!
+# api.node
+Projeto com objetivo de aprender a fazer uma api com node, express, prisma e docker.
+
