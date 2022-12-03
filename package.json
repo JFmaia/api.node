@@ -1,20 +1,21 @@
 {
   "name": "api.node",
   "version": "1.0.0",
-  "description": "Projeto com objetivo de aprender a fazer uma api com node, express, prisma e docker.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JFmaia/api.node.git"
-  },
-  "keywords": [],
-  "author": "José Flávio S. Maia",
+  "repository": "git@github.com:JFmaia/api.node.git",
+  "author": "JFmaia <jfmaia741@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JFmaia/api.node/issues"
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
   },
-  "homepage": "https://github.com/JFmaia/api.node#readme"
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "prisma": "^4.7.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.7.1",
+    "express": "^4.18.2"
+  }
 }
