@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { CreateMovieController } from "../modules/movies/useCases/createUser/CreateMovieController";
+import { CreateMovieController } from "../modules/movies/movieCase/createUser/CreateMovieController";
 
 const createMovieController = new CreateMovieController();
 
