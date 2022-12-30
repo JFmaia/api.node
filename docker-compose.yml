@@ -1,0 +1,9 @@
+version: "3"
+services:
+  ebcq_db:
+    container_name: ebcq_db
+    image: postgres:13
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: jfmaia741
